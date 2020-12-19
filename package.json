@@ -1,6 +1,6 @@
 {
   "name": "sass-pnp-importer",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "sass-pnp-importer allows you to use a string to import scss as you would js with Yarn 2 PnP.",
   "main": "lib/index.js",
   "scripts": {
