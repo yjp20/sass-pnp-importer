@@ -1,0 +1,24 @@
+{
+  "name": "sass-pnp-importer",
+  "version": "0.1.0",
+  "description": "sass-pnp-importer allows you to use a string to import scss as you would js with Yarn 2 PnP.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm build",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": "https://github.com/yjp20/sass-pnp-importer",
+  "author": "Young Jin Park",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "rollup": "^2.35.1",
+    "rollup-plugin-node-builtins": "^2.1.2"
+  },
+  "dependencies": {
+    "@yarnpkg/fslib": "^2.4.0",
+    "@yarnpkg/libzip": "^2.2.1"
+  }
+}
